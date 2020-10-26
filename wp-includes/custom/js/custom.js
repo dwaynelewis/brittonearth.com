@@ -5,3 +5,10 @@ var player = videojs('my-video', {
 	loop: true,
 	fluid: true
 });
+var player = videojs('my-video-testimonial', {
+	
+	controls: true,
+	
+	loop: true,
+	fluid: true
+});
