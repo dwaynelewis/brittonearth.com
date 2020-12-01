@@ -4,3 +4,39 @@
 .fusion-main-menu{
     z-index: 1
 }
+
+.gallery-row {
+    display: flex;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.gallery-item {
+    flex: 1;
+    margin: 5px 10px;
+    max-height: 300px;
+}
+
+.gallery-img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+  @media screen and (max-width: 640px) {
+    .gallery-row {
+        display: block;
+        padding: 0 10px;
+    } 
+
+    .gallery-item {
+        margin:0;
+        margin: 10px;
+    }
+
+    .gallery-img {
+        height: 300px;
+        width: 100%;
+        /* margin: 10px; */
+    }
+}
